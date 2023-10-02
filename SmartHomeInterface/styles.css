@@ -1,0 +1,185 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles for background color and font color */
+body {
+    background-color: #28074a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll on smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Header styles */
+/* Header styles with rounded corners */
+header {
+    text-align: center;
+    padding: 10px 35px;
+}
+
+
+/* Main content container */
+main {
+    padding: 20px;
+    text-align: center; /* Center content horizontally */
+}
+
+/* Section styles */
+section {
+    background-color: #491088;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section heading styles */
+section h2 {
+    color: #ff19db;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Button styles with soft glow effect on :active and :focus */
+button {
+    background-color: #6c1dd0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for smoother effect */
+    margin: 10px; /* Add space between buttons */
+}
+
+button:hover {
+    background-color: #643db0;
+}
+
+/* Soft glow effect on button click (:active) */
+button:active {
+    background-color: #3ad20c;
+    box-shadow: 0 0 10px rgba(108, 29, 208, 0.6); /* Soft glow effect */
+}
+
+/* Soft glow effect on button focus (:focus) */
+button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 10px rgba(108, 29, 208, 0.6); /* Soft glow effect */
+}
+
+/* Icon styles */
+i {
+    margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    section {
+        padding: 15px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+/* Add styles for the toggle switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide the default checkbox input */
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the switch track */
+.toggle-switch .toggle {
+    position: absolute;
+    cursor: pointer;
+    background-color: #491088;
+    border-radius: 34px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Add styles for the toggle switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide the default checkbox input */
+.toggle-switch input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the switch track when it's off (initial state) */
+.toggle-switch .toggle {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ff7f1a; /* Slightly red when off */
+    border-radius: 34px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the switch thumb (circle) when it's off (initial state) */
+.toggle-switch .toggle::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+/* Style the switch when it's on */
+.toggle-switch input[type="checkbox"]:checked + .toggle {
+    background-color: #0ccf5a; /* Green when on */
+}
+
+/* Move the switch thumb to the right when checked (on) */
+.toggle-switch input[type="checkbox"]:checked + .toggle::before {
+    transform: translateX(26px);
+}
+
+/* Optional: Style the label text next to the switch */
+.toggle-switch label {
+    color: #fff;
+    width: 60px;
+}
+
+#currentTemp {
+    font-size: 36px;
+    color: #fff;
+    margin: 10px; /* Add space around temperature display */
+}
