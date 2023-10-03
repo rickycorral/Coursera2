@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rickmeister MySavedItems</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <h1>Rickmeisters List</h1>
+  <div id="itemPreview"></div>
+  <div class="controls">
+  <select id="category">
+    <option value="">--Select a Category--</option>
+    <option value="Books">Books</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Shoes">Shoes</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Pets">Pets</option>
+    <option value="Health">Health</option>
+  </select>
+</div>
+  <button id="saveButton">Save Item</button>
+  <ul id="itemList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
