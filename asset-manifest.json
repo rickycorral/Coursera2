@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Coursera2/static/css/main.672f9035.css",
+    "main.js": "/Coursera2/static/js/main.1db1f3bb.js",
+    "static/js/787.438c10e6.chunk.js": "/Coursera2/static/js/787.438c10e6.chunk.js",
+    "index.html": "/Coursera2/index.html",
+    "main.672f9035.css.map": "/Coursera2/static/css/main.672f9035.css.map",
+    "main.1db1f3bb.js.map": "/Coursera2/static/js/main.1db1f3bb.js.map",
+    "787.438c10e6.chunk.js.map": "/Coursera2/static/js/787.438c10e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672f9035.css",
+    "static/js/main.1db1f3bb.js"
+  ]
+}
