@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<div class="input-container">
+    <p class="subtitle">Enter cryptocurrency ticker symbols (e.g., BTC, ETH, XRP):</p>
+    <input type="text" id="cryptoInput" class="input" placeholder="Enter ticker symbol">
+    <button id="addCryptoButton" class="button">Add Crypto</button>
+</div>
+
+<!-- ... (previous HTML content) ... -->
+
+<div class="table-container">
+    <table id="cryptoTable" class="crypto-table">
+        <thead>
+            <tr>
+                <th>Crypto</th>
+                <th>Price! (USD)</th>
+            </tr>
+        </thead>
+        <tbody id="cryptoList" class="crypto-list">
+            <!-- Crypto items will be dynamically added here -->
+        </tbody>
+    </table>
+</div>
+
+<!-- ... (remaining HTML content) ... -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html> 
