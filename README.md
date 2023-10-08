@@ -1,7 +1,15 @@
-* [CryptoPrice](https://github.com/rickycorral/CryptoPrice)
-* [Facebomp](https://github.com/rickycorral/Facebomp)
-* [PersonalHomepage](https://github.com/rickycorral/PersonalHomepage)
-* [Slideshow](https://github.com/rickycorral/Slideshow)
-* [SmartHomeInterface](https://github.com/rickycorral/SmartHomeInterface)
-* [modal](https://github.com/rickycorral/modal)
-* [seltzer_flavor_generator](https://github.com/rickycorral/seltzer_flavor_generator)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ricky Corral's Personal Homepage</title>
+</head>
+<body>
+  <h1>Welcome to Ricky Corral's Personal Homepage</h1>
+  <p>This is my personal homepage.</p>
+  <ul>
+    <li><a href="https://github.com/rickycorral/PersonalHomepage">Personal Homepage</a></li>
+    <li><a href="https://github.com/rickycorral/CryptoPrice">CryptoPrice</a></li>
+    <li><a href="https://github.com/rickycorral/Facebomp">Facebomp</a></li>
+  </ul>
+</body>
+</html>
