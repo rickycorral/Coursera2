@@ -7,9 +7,9 @@
   <h1>Welcome to Ricky Corral's Personal Homepage</h1>
   <p>This is my personal homepage.</p>
   <ul>
-    <li><a href="https://github.com/rickycorral/PersonalHomepage">Personal Homepage</a></li>
-    <li><a href="https://github.com/rickycorral/CryptoPrice">CryptoPrice</a></li>
-    <li><a href="https://github.com/rickycorral/Facebomp">Facebomp</a></li>
+<li><a href="https://rickycorral.github.io/Coursera2/PersonalHomepage/">Personal Homepage</a></li>
+<li><a href="https://rickycorral.github.io/Coursera2/CryptoPrice/">CryptoPrice</a></li>
+<li><a href="https://rickycorral.github.io/Coursera2/Facebomp/">Facebomp</a></li>
   </ul>
 </body>
 </html>
