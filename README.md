@@ -27,47 +27,47 @@
     </thead>
     <tbody>
       <tr>
-        <td>CryptoPrice</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/CryptoPrice/">CryptoPrice</a></td>
         <td>f</td>
         <td>3 hours ago</td>
       </tr>
       <tr>
-        <td>Extension</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/Extension/">Extension</a></td>
         <td>addmoreprojects</td>
         <td>5 days ago</td>
       </tr>
       <tr>
-        <td>Facebomp</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/Facebomp/">Facebomp</a></td>
         <td>coursera2</td>
         <td>last week</td>
       </tr>
       <tr>
-        <td>PersonalHomepage</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/PersonalHomepage/">PersonalHomepage</a></td>
         <td>Update index.html</td>
         <td>last week</td>
       </tr>
       <tr>
-        <td>Slideshow</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/Slideshow/">Slideshow</a></td>
         <td>coursera2</td>
         <td>last week</td>
       </tr>
       <tr>
-        <td>SmartHomeInterface</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/SmartHomeInterface/">SmartHomeInterface</a></td>
         <td>addmoreprojects</td>
         <td>5 days ago</td>
       </tr>
       <tr>
-        <td>TwoPointers</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/TwoPointers/">TwoPointers</a></td>
         <td>dc</td>
         <td>22 minutes ago</td>
       </tr>
       <tr>
-        <td>modal</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/modal/">modal</a></td>
         <td>fd</td>
         <td>4 days ago</td>
       </tr>
       <tr>
-        <td>seltzer_flavor_generator</td>
+        <td><a href="https://rickycorral.github.io/Coursera2/seltzer_flavor_generator/">seltzer_flavor_generator</a></td>
         <td>master</td>
         <td>2 days ago</td>
       </tr>
