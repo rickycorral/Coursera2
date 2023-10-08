@@ -1,2 +1,7 @@
-# Coursera2
-My personal homepage and some projects
+* [CryptoPrice](https://github.com/rickycorral/CryptoPrice)
+* [Facebomp](https://github.com/rickycorral/Facebomp)
+* [PersonalHomepage](https://github.com/rickycorral/PersonalHomepage)
+* [Slideshow](https://github.com/rickycorral/Slideshow)
+* [SmartHomeInterface](https://github.com/rickycorral/SmartHomeInterface)
+* [modal](https://github.com/rickycorral/modal)
+* [seltzer_flavor_generator](https://github.com/rickycorral/seltzer_flavor_generator)
